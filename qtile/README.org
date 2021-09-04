@@ -80,6 +80,7 @@ These are the keybindings for qtile.
 
 * Startup applications
 The applications that should autostart every time qtile is started.
+#+BEGIN_SRC startup
 
 xfsettingsd &
 run nm-applet &
@@ -100,3 +101,4 @@ blueman-applet &
 msm_notifier &
 torguard &
 /home/sav3d/Applications/Nextcloud-3.3.1-x86_64_332d890d59fed28c70f0e58f2a1b04f3.AppImage &
+#+END_SRC
