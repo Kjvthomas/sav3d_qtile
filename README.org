@@ -36,19 +36,19 @@ Just some variables I am setting to make my life easier.
 #+BEGIN_SRC python
 mod = "mod4"              # Sets mod key to SUPER
 myTerm = "kitty"      # My terminal of choice
-myBrowser = "librewolf" # My terminal of choice
+myBrowser = "librewolf" # My browser of choice
 myDmenu = "dmenu_run -c -bw 2 -l 20 -g 4 -p 'Run'" #dmenu
 myEditor = "atom" #atom
 myFile = "pcmanfm" #pcmanfm
 myGFX = "gimp" #gimp
-mySVG = "inkscape"
-myOffice = "libreoffice"
-myLogOut = "arcolinux-logout"
-myWallpaper = "dwall -s earth"
-myStats = "urxvt -T 'bpytop' -e bpytop"
-myMath = "galculator"
-myUpdate = "pamac-manager"
-myCloud = "/home/sav3d/Applications/Nextcloud-3.3.1-x86_64_332d890d59fed28c70f0e58f2a1b04f3.AppImage"
+mySVG = "inkscape" #inkscape
+myOffice = "libreoffice" #libreoffice
+myLogOut = "arcolinux-logout" #arcologout
+myWallpaper = "dwall -s earth" #dwall
+myStats = "urxvt -T 'bpytop' -e bpytop" #better htop
+myMath = "galculator" #calculator
+myUpdate = "pamac-manager" #gui update system
+myCloud = "/home/sav3d/Applications/Nextcloud-3.3.1-x86_64_332d890d59fed28c70f0e58f2a1b04f3.AppImage" #nextcloud
 #+END_SRC
 
 * Keybindings
