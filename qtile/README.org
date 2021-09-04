@@ -76,6 +76,7 @@ These are the keybindings for qtile.
 | MODKEY + w                  | librewolf                                                                |
 | MODKEY + d                  | dmenu.                                                                   |
 | MODKEY + u                  | ulauncher                                                                |
+| MODKEY + o                  | libreoffice                                                              |
 
 
 * Startup applications
