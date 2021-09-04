@@ -384,7 +384,7 @@ def init_widgets_list():
                        fontsize = 60
                        ),
               widget.CPU(
-                       #app_key = "74ca44597e7741a1eef59f4fb808fa6a",
+                       #app_key = "",
                        #weather_0_icon
                        #metric = "false",
                        #cityid = "5313457",
