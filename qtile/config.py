@@ -1,3 +1,4 @@
+### sav3d's Qtile Config ###
 # -*- coding: utf-8 -*-
 import os
 import re
@@ -112,14 +113,15 @@ keys = [
              lazy.layout.section_up(),
              desc='Move windows up in current stack'
              ),
-         Key([mod], "l",
+         Key([mod, "shift"], "l",
              lazy.layout.grow(),
              lazy.layout.increase_nmaster(),
              desc='Expand window (MonadTall), increase number in master pane (Tile)'
              ),
-         Key([mod], "m",
-             lazy.layout.maximize(),
-             desc='toggle window between minimum and maximum sizes'
+         Key([mod, "shift"], "h",
+             lazy.layout.shrink(),
+             lazy.layout.decrease_nmaster(),
+             desc='Shrink window (MonadTall), decrease number in master pane (Tile)'
              ),
          Key([mod, "shift"], "f",
              lazy.window.toggle_floating(),
@@ -293,6 +295,20 @@ def init_widgets_list():
               widget.TextBox(
                        text = '',
                        background = colors[0],
+                       foreground = colors[0],
+                       padding = -12,
+                       fontsize = 60
+                       ),
+              widget.Net(
+                       interface = "wlan1",
+				       format = '{down} ↓↑ {up}  ',
+                       foreground = colors[2],
+                       background = colors[0],
+                       padding = 0
+                       ),
+		      widget.TextBox(
+                       text = '',
+                       background = colors[0],
                        foreground = colors[4],
                        padding = -12,
                        fontsize = 60
@@ -384,7 +400,7 @@ def init_widgets_list():
                        fontsize = 60
                        ),
               widget.CPU(
-                       #app_key = "",
+                       #app_key = "74ca44597e7741a1eef59f4fb808fa6a",
                        #weather_0_icon
                        #metric = "false",
                        #cityid = "5313457",
